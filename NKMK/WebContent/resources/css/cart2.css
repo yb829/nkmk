@@ -1,0 +1,224 @@
+@charset "UTF-8";
+
+
+
+    .rowhead {
+     margine: 5;
+     padding:20;
+     border-bottom: 2px solid #888;
+     box-sizing: border-box;
+     background-color: #f4f4f4;
+     font-weight: 500;
+     display: flex;  
+     width: 70%; 
+    }
+    
+    .rowhead .check{
+     justify-content:space-around;   
+     cursor: pointer;
+     margine: 10;
+     width: 10%;
+     flex-grow: 1;  
+     padding: 1px
+    
+             
+    }
+    
+     .rowhead .img{
+    justify-content:space-around; 
+    width: 10%;
+    flex-grow: 1; 
+    padding: 5px
+  
+    }
+    
+     .rowhead .pname{
+     justify-content:space-around; 
+     width: 25%;
+     flex-grow: 2; 
+     padding: 5px
+    }
+    
+     .rowhead .basketprice{
+    justify-content:space-around;  
+     width: 10%;
+     flex-grow: 1; 
+     padding: 5px
+    }
+    .rowhead .num{
+    justify-content:space-around;
+     width: 10%;
+     flex-grow: 1; 
+     padding: 5px
+    }
+    
+   .rowhead .sum{
+   justify-content:space-around; 
+   width: 10%;
+   flex-grow: 1; 
+   padding: 5px
+    }
+    
+    
+      
+ .rowdata{
+   display: flex;
+   width: 70%;
+     float: left;
+   margin: 30px;
+    }
+   
+ 
+        
+   .rowdata .check {
+    width: 10%;
+    
+  	.check input[type=checkbox]
+        transform: scale(1);
+   }
+ 
+     .rowdata .img{
+        width:15%;
+    }
+    .rowdata .pname{
+        width: 30%;
+    }
+
+    .rowdata .basketprice {
+        width: 17%;
+    }
+    
+    
+    .rowdata .num {
+        width: 15%;
+      
+    }
+    
+    
+    .rowdata .sum {
+        width: 15%;
+     
+        
+    }
+ 
+    .rowdata .basket .point {
+        width: 25%;
+    }
+    
+#target{
+	width:60%;
+
+}
+
+#cart-container {
+	width: 100%;
+	hight: 80%;
+	margin: 0px auto;
+	
+}
+#cart-sidebar {
+	width: 200px;
+	padding: 5px;
+	margin-bottom: 5px;
+	float: right;
+	border: 1px solid #bcbcbc;
+}
+    .basket .basketcmd{
+        width: 100%;
+    }
+    .basket .data .pname {
+      text-align: left !important;
+      line-height: 1.2 !important;
+    }
+    .basket .data .price, .basket .data .sum, .basket .data .point {
+        text-align: right;
+    }
+   
+
+.buttongroup {
+    padding: 11px 0;
+    margin: 50px 0;
+}
+.narrowbuttongroup{
+    margin: 15px 0;
+}
+    .buttongroup .center {
+        text-align: left;
+    }
+    .buttongroup input[type=text], .buttongroup input[type=password] {
+        height: 30px;
+    }
+    .buttongroup button, .buttongroup a {
+        margin-right: 5px;
+    }
+        .buttongroup button:last-child, .buttongroup a:last-child {
+            margin-right: 0;
+        }
+
+    .abutton, .abutton:link, .abutton:visited, .abutton:active, input[type=button] {
+        background-color: #ffd400;
+        border: 1px solid #888888;
+        color: #000;
+        cursor: pointer;
+        letter-spacing: -1px;
+        padding: 3px 5px;
+        margin: 2px 3px;
+        width: auto;
+        word-break: keep-all;
+        border-radius: 5px;
+        text-decoration: none;
+        font-size: 0.9375em;
+    }
+
+.abutton-alt {
+    background-color: #d3e2c6;
+}
+
+.red {
+    color:#b00;
+}
+.blue {
+  color: #0075ff;
+}
+.basketrowcmd, .sumcount, .summoney{
+  text-align: left; 
+  margin-bottom: 10px;
+}
+.sumcount, .summoney{
+  padding: 5px;
+  font-size: 1.25em;
+  font-weight: bold;
+}
+ .delivery{
+  padding: 5px;
+  font-size: 1.0em;
+  font-weight: bold;
+ 
+ }
+.buttongroup{
+  text-align: center;
+ 
+}
+.buttongroup a{
+  text-decoration: none;
+}
+.cmd a, .cmd span {
+    padding: 12px 30px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: #000;
+    background-color: #ffd400;
+    border: 1px solid #e0e0e0;
+    text-align: center;
+}
+.cmd.small a, .cmd.small span {
+    padding: 6px 20px;
+    font-size: 0.8125em;
+}
+
+.orderform .p_num {
+    text-align: right;
+    width: 40px;
+    font-size: 1em;
+}
